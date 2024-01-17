@@ -47,9 +47,10 @@ fun Main() {
     NavHost(navController = navController, startDestination = "home") {
         composable("home") {
             Column(
-                modifier = Modifier
-                    .padding(horizontal = 16.dp)
-                    .verticalScroll(rememberScrollState())
+                modifier =
+                    Modifier
+                        .padding(horizontal = 16.dp)
+                        .verticalScroll(rememberScrollState()),
             ) {
                 NavigationButton("qualify1", navController)
                 NavigationButton("qualify2", navController)
@@ -63,7 +64,10 @@ fun Main() {
 }
 
 @Composable
-fun NavigationButton(route: String, navController: NavController) {
+fun NavigationButton(
+    route: String,
+    navController: NavController,
+) {
     Button(
         modifier = Modifier.fillMaxWidth(),
         onClick = { navController.navigate(route) },
@@ -72,6 +76,7 @@ fun NavigationButton(route: String, navController: NavController) {
 
 @Preview(showBackground = true)
 @Composable
-fun MainPreview() = AppTheme {
-    Main()
-}
+fun MainPreview() =
+    AppTheme {
+        Main()
+    }

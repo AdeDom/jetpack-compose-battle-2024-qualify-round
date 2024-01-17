@@ -13,8 +13,8 @@ object PixelTablet {
 }
 
 // Not working with Showkase
-//@Preview(group = Pixel7.name, device = Pixel7.spec, showBackground = true)
-//annotation class Pixel7Preview
+// @Preview(group = Pixel7.name, device = Pixel7.spec, showBackground = true)
+// annotation class Pixel7Preview
 //
-//@Preview(group = PixelTablet.name, device = PixelTablet.spec, showBackground = true)
-//annotation class PixelTabletPreview
+// @Preview(group = PixelTablet.name, device = PixelTablet.spec, showBackground = true)
+// annotation class PixelTabletPreview

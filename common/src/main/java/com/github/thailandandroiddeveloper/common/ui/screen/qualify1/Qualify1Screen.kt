@@ -13,7 +13,8 @@ fun Qualify1Screen() {
 // region Read-only because we use this to process your score.
 @Composable
 @Preview(group = Pixel7.name, device = Pixel7.spec, showBackground = true)
-fun Qualify1ScreenPreview() = AppTheme {
-    Qualify1Screen()
-}
+fun Qualify1ScreenPreview() =
+    AppTheme {
+        Qualify1Screen()
+    }
 // endregion
