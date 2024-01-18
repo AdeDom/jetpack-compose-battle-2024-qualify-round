@@ -57,7 +57,14 @@ fun Main() {
                 NavigationButton("qualify3", navController)
             }
         }
-        composable("qualify1") { Qualify1Screen() }
+        composable("qualify1") {
+            Qualify1Screen(
+                onNavigationIconClick = {},
+                onActionsClick = {},
+                onThumbDownClick = {},
+                onThumbUpClick = {},
+            )
+        }
         composable("qualify2") { Qualify2Screen() }
         composable("qualify3") { Qualify3Screen() }
     }
