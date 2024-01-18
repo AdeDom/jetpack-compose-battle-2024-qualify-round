@@ -65,7 +65,12 @@ fun Main() {
                 onThumbUpClick = {},
             )
         }
-        composable("qualify2") { Qualify2Screen() }
+        composable("qualify2") {
+            Qualify2Screen(
+                onSkipClick = {},
+                onNextClick = {},
+            )
+        }
         composable("qualify3") { Qualify3Screen() }
     }
 }

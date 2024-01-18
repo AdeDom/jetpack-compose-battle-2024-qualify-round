@@ -3,4 +3,8 @@
     <string name="john_doe">John Doe</string>
     <string name="male">Male</string>
     <string name="lorem">Lorem ipsum dolor sit amet, cd nulla lacinia, quis fringilla lorem imperdiet. Proin in quam vel odio iaculis fringilla.</string>
+    <string name="skip">Skip</string>
+    <string name="lorem_title">Lorem ipsum dolor sit amet</string>
+    <string name="lorem_detail">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec egestas dictum lacinia. Integer arcu neque, porttitor ac metus quis, iaculis molestie magna. Vivamus molestie justo sed nulla lacinia, quis fringilla lorem imperdiet. Proin in quam vel odio iaculis fringilla</string>
+    <string name="next">Next</string>
 </resources>
