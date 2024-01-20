@@ -71,7 +71,14 @@ fun Main() {
                 onNextClick = {},
             )
         }
-        composable("qualify3") { Qualify3Screen() }
+        composable("qualify3") {
+            Qualify3Screen(
+                onBackClick = {},
+                onCopyClick = {},
+                onCalendarClick = {},
+                onMenuClick = {},
+            )
+        }
     }
 }
 

@@ -7,4 +7,16 @@
     <string name="lorem_title">Lorem ipsum dolor sit amet</string>
     <string name="lorem_detail">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec egestas dictum lacinia. Integer arcu neque, porttitor ac metus quis, iaculis molestie magna. Vivamus molestie justo sed nulla lacinia, quis fringilla lorem imperdiet. Proin in quam vel odio iaculis fringilla</string>
     <string name="next">Next</string>
+    <string name="tag_1">Tag 1</string>
+    <string name="tag_2">Tag 2</string>
+    <string name="tag_3">Tag 3</string>
+    <string name="tag_4">Tag 4</string>
+    <string name="sender_title1">Lorem Ipsum</string>
+    <string name="sender_title2">Lorem Ipsum</string>
+    <string name="sender_title3">Lorem Ipsum</string>
+    <string name="sender_title4">Lorem Ipsum</string>
+    <string name="sender_sub_title1">Duis dignissim pulvinar lectus imperdiet tempus. Curabitur fringilla commodo consectetur. Sed congue blandit nibh.</string>
+    <string name="sender_sub_title2">Morbi sed sagittis justo, at pulvinar ipsum. Praesent massa metus, interdum at suscipit a, interdum vel orci. Pellentesque in sapien. Integer faucibus mauris ac luctus aliquam accumsan.</string>
+    <string name="sender_sub_title3">Duis dignissim pulvinar lectus imperdiet tempus. Curabitur fringilla commodo.</string>
+    <string name="sender_sub_title4">Ut hendrerit neque nec accumsan hendrerit. Fusce lobortis rhoncus erat, a blandit nibh molestie vel. Cras commodo ligula ex, vitae venenatis lacus facilisis eget.</string>
 </resources>
