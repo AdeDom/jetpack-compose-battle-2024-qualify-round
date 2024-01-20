@@ -29,7 +29,10 @@ fun Qualify2Screen(
             modifier =
                 Modifier
                     .align(Alignment.TopEnd)
-                    .padding(8.dp),
+                    .padding(
+                        top = 6.dp,
+                        end = 8.dp,
+                    ),
         )
         Column(
             horizontalAlignment = Alignment.CenterHorizontally,
@@ -45,7 +48,7 @@ fun Qualify2Screen(
             Qualify2TitleTextComponent()
             Spacer(modifier = Modifier.height(16.dp))
             Qualify2DetailTextComponent()
-            Spacer(modifier = Modifier.height(32.dp))
+            Spacer(modifier = Modifier.height(34.dp))
             Qualify2ImagePagerComponent()
         }
         Box(

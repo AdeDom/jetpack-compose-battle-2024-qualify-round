@@ -130,6 +130,8 @@ fun Qualify3SenderComponent(
                 )
                 Text(
                     text = stringResource(subTitle),
+                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                    style = MaterialTheme.typography.bodyMedium,
                     maxLines = 2,
                     overflow = TextOverflow.Ellipsis,
                 )

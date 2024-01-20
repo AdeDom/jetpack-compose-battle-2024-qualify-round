@@ -110,7 +110,7 @@ fun Qualify3Content(modifier: Modifier = Modifier) {
         }
         LazyRow(
             contentPadding = PaddingValues(horizontal = 16.dp),
-            horizontalArrangement = Arrangement.spacedBy(8.dp),
+            horizontalArrangement = Arrangement.spacedBy(10.dp),
         ) {
             items(list2) {
                 Qualify3TagComponent(
@@ -121,7 +121,7 @@ fun Qualify3Content(modifier: Modifier = Modifier) {
         }
         LazyColumn(
             contentPadding = PaddingValues(horizontal = 16.dp),
-            verticalArrangement = Arrangement.spacedBy(16.dp),
+            verticalArrangement = Arrangement.spacedBy(19.dp),
         ) {
             items(list3) {
                 Qualify3SenderComponent(

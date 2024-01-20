@@ -23,6 +23,7 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 import com.github.thailandandroiddeveloper.common.R
 import com.github.thailandandroiddeveloper.common.ui.component.AppImageComponent
 import com.github.thailandandroiddeveloper.common.ui.component.ButtonTextComponent
@@ -51,7 +52,7 @@ fun Qualify2TitleTextComponent(modifier: Modifier = Modifier) {
     Text(
         text = stringResource(R.string.lorem_title),
         color = MaterialTheme.colorScheme.onSurface,
-        style = MaterialTheme.typography.headlineSmall,
+        style = MaterialTheme.typography.headlineSmall.copy(fontSize = 25.sp),
         textAlign = TextAlign.Center,
         modifier = modifier,
     )
